@@ -1,0 +1,17 @@
+{
+  "name": "TinySO2-ESP32",
+  "keywords": "tinyml, so2, esp32, machine-learning, embedded-ai",
+  "description": "TinyML-based SO2 removal prediction deployed on ESP32 using TensorFlowLite Micro and EloquentTinyML",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Someo94/SO2Predictor-TinyML"
+  },
+  "version": "1.0.0",
+  "authors": {
+    "name": "Robert Makomere",
+    "email": "rsomeo@yahoo.com",
+    "url": "https://github.com/Someo94"
+  },
+  "frameworks": "arduino",
+  "platforms": "*"
+}
