@@ -1,5 +1,5 @@
 {
-  "name": "TinySO2-ESP32",
+  "name": "SO2Predictor-TinyML",
   "keywords": "tinyml, so2, esp32, machine-learning, embedded-ai",
   "description": "TinyML-based SO2 removal prediction deployed on ESP32 using TensorFlowLite Micro and EloquentTinyML",
   "repository": {
