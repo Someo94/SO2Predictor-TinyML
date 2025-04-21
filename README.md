@@ -22,7 +22,7 @@ This project implements a TensorFlow Lite model on an ESP32 microcontroller to p
 
 ## Software Requirements
 - Arduino IDE
-- EloquentTinyML Library
+- [EloquentTinyML](https://github.com/eloquentarduino/EloquentTinyML/tree/2.4.0-bis) Library
 - TensorFlowLite_ESP32 Library (tflm_esp32)
 
 ---
@@ -50,4 +50,11 @@ During initialization, a warning such as:
 
 ```arduino
 Calling AddBuiltin with the same op more than once is not supported (Op: #9).
+```
+
+If stricter operator compliance is required (for production or hardware certification), 
+consider retraining the model with a standard `ReLU` activation instead of `LeakyReLU`.
+
+
+
 
