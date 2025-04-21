@@ -1,4 +1,3 @@
-# SO2Predictor-TinyML
 # TinyML SO2 Removal Prediction on ESP32
 
 This project implements a TensorFlow Lite model on an ESP32 microcontroller to predict SO2 removal efficiency based on 4 input features.
