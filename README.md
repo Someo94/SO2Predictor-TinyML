@@ -45,7 +45,7 @@ LeakyReLU is not a standard operator in base TensorFlow Lite Micro (TFLM).
 
 Therefore, the model manually registers `AddLeakyRelu()` in the EloquentTinyML resolver.
 
-During initialization, a warning such as:
+During initialization, a warning might appear such as:
 
 ```arduino
 Calling AddBuiltin with the same op more than once is not supported (Op: #9).
